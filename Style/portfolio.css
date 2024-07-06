@@ -3,6 +3,11 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+
+/*Shared Functions */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .primary-color{
     color: #FD6E0A;
 }
@@ -77,8 +82,51 @@ nav li a{
 }
 .banner-description{
     font-size: 18px;
-    font-weight: 400;
+    
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/*section style*/
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+
+}
+/*Main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*ABout Style */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
 }
